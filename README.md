@@ -21,9 +21,9 @@ Azure Key Vault is a cloud service that provides a secure store for secrets. You
 
 
 # Code Structure
-`src/Transaction.js` The code here handles connecting to the Algorand Purestake API client, creating a payment transaction, Signing the transaction with secret from Azure KeyVault.
-`src/VaultSecret.js` This handles connecting to the azure identity and secret client and making a request to get the secret.
-`src/RecoverAccount.js` This handles recovering of Algorand wallet using the secret from Azure KeyVault
+- `src/Transaction.js` The code here handles connecting to the Algorand Purestake API client, creating a payment transaction, Signing the transaction with secret from Azure KeyVault.
+- `src/VaultSecret.js` This handles connecting to the azure identity and secret client and making a request to get the secret.
+- `src/RecoverAccount.js` This handles recovering of Algorand wallet using the secret from Azure KeyVault
 
 NOTE
 Create `.env` file at the root of your project to store sensitive information. Your `.env` file should look like this
