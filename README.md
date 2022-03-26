@@ -41,10 +41,10 @@ To install required dependencies do
 `node Transaction.js`
 
 # License
-Distributed under the MIT License. See for more information. [LICENSE]
+Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/algorand-azure-keyvault/blob/master/LICENSE)
 
 # Blog and Video Tutorial
-For more detailed step by step guide checkout the blog post [here](). And here is the link to the youtube [demo]()
+For more detailed step by step guide checkout the blog post [here](https://developer.algorand.org/tutorials/using-azure-keyvault-for-wallet-transactions/). And here is the link to the youtube [demo]()
 
 # Disclaimer
 This project is not audited and should not be used in a production environment.
