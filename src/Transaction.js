@@ -10,8 +10,8 @@ require('dotenv').config({path: '../.env'})
     try {
         // Connect your client
         const algodToken = {"X-API-Key": process.env.API_KEY}
-        const algodServer = 'https://testnet-algorand.api.purestake.io/ps2/';
-        const algodPort = "";
+        const algodServer = process.env.ALGOD_SERVER
+        const algodPort = process.env.PORT
         let algodClient = new algosdk.Algodv2(algodToken, algodServer, algodPort);
   
         //Check your balance
