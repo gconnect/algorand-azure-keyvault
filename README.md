@@ -1,4 +1,4 @@
-# Using Azure Key Vault for Algorand Wallet Transactions
+# Using Azure Key Vault for Algorand Wallet Transactions using JavaScript
 
 Azure Key Vault is a cloud service that provides a secure store for secrets. You can securely store keys, passwords, certificates, and other secrets. Azure key vaults may be created and managed through the Azure portal. In this tutorial, you create a key vault, then use it to store a secret and retrieve the secret to sign transactions on Algorand.
 
@@ -44,7 +44,7 @@ To install required dependencies do
 Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/algorand-azure-keyvault/blob/master/LICENSE)
 
 # Blog and Video Tutorial
-For more detailed step by step guide checkout the blog post [here](https://developer.algorand.org/tutorials/using-azure-keyvault-for-wallet-transactions/). And here is the link to the youtube [demo]()
+For more detailed step by step guide checkout the blog post [here](https://developer.algorand.org/tutorials/using-azure-keyvault-for-wallet-transactions/). And here is the link to the youtube [demo](https://www.youtube.com/watch?v=qS82oYclYY0)
 
 # Disclaimer
 This project is not audited and should not be used in a production environment.
