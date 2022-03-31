@@ -50,7 +50,7 @@ To install required dependencies do
 `npm install`
 
 # Run Code
-!!! NOTE
+NOTE
 Ensure you are logged in using the azure cli, to be able to access the secret before running the below code. To login to azure using the cli
 do `az login`. To run the below code ensure you are in the `src` folder.
 - To run the VaultSecret code  run `node VaultSecret.js` 
