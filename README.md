@@ -52,9 +52,10 @@ To install required dependencies do
 # Run Code
 !!! NOTE
 Ensure you are logged in using the azure cli, to be able to access the secret before running the below code. To login to azure using the cli
-do `az login`
-- To run the transaction code cd src and then run `node Transaction.js` 
-- To run the recovery code cd src run `node RecoverAccount.js` .
+do `az login`. To run the below code ensure you are in the `src` folder.
+- To run the VaultSecret code  run `node VaultSecret.js` 
+- To run the transaction code run `node Transaction.js` 
+- To run the recovery code run `node RecoverAccount.js`
 
 # License
 Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/algorand-azure-keyvault/blob/master/LICENSE)
