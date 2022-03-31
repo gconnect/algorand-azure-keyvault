@@ -16,7 +16,7 @@ const getSecret =  async () =>{
     console.log(err)
   }
 }
-
+getSecret()
 module.exports ={
   getSecret
 }
